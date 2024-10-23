@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fpefvSfofLNcq7bE37dtH7YHTgrd/9Z9Er5XxSetqUNgLGgSnkGZtALHF1xRAZdNpuPsXrS2Twvzhfw72IQ+vQ==",
+  "dgSpecHash": "EBy3T3YYhTqsVv9Ru/CsaJbrFjM6E8QIR4q0yHPFJiOhv9TTpWOEol2Ik232RvhS7Be2y1jOPcfat22EvhEGiQ==",
   "success": true,
-  "projectFilePath": "G:\\Son\\G3\\Iter3\\Iter3.csproj",
+  "projectFilePath": "G:\\Son\\ShopOnline\\G3\\Iter3\\Iter3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nguye\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\nguye\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

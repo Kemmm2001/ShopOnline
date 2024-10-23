@@ -102,14 +102,43 @@
                         <!-- Phân trang -->
                         <nav aria-label="Page navigation">
                             <ul class="pagination">
-                                @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                                <!-- Luôn hiển thị trang đầu tiên (trang 1) -->
+                                <li class="page-item @(ViewBag.CurrentPage == 1 ? "active" : "")">
+                                    <a class="page-link" href="@Url.Action("Index", new { page = 1, pageSize = ViewBag.PageSize })">1</a>
+                                </li>
+
+                                <!-- Nếu CurrentPage lớn hơn 3, hiển thị dấu "..." -->
+                                @if (ViewBag.CurrentPage > 3)
+                                {
+                                    <li class="page-item disabled"><span class="page-link">...</span></li>
+                                }
+
+                                <!-- Hiển thị các trang từ trang hiện tại - 1 đến trang hiện tại + 1 (trừ trang đầu và trang cuối) -->
+                                @for (int i = Math.Max(2, ViewBag.CurrentPage - 1); i <= Math.Min(ViewBag.TotalPages - 1, ViewBag.CurrentPage + 1); i++)
                                 {
                                     <li class="page-item @(ViewBag.CurrentPage == i ? "active" : "")">
                                         <a class="page-link" href="@Url.Action("Index", new { page = i, pageSize = ViewBag.PageSize })">@i</a>
                                     </li>
                                 }
+
+                                <!-- Nếu CurrentPage nhỏ hơn tổng số trang trừ 2, hiển thị dấu "..." -->
+                                @if (ViewBag.CurrentPage < ViewBag.TotalPages - 2)
+                                {
+                                    <li class="page-item disabled"><span class="page-link">...</span></li>
+                                }
+
+                                <!-- Luôn hiển thị trang cuối cùng nếu nó không phải là trang hiện tại -->
+                                @if (ViewBag.TotalPages > 1)
+                                {
+                                    <li class="page-item @(ViewBag.CurrentPage == ViewBag.TotalPages ? "active" : "")">
+                                        <a class="page-link" href="@Url.Action("Index", new { page = ViewBag.TotalPages, pageSize = ViewBag.PageSize })">@ViewBag.TotalPages</a>
+                                    </li>
+                                }
                             </ul>
                         </nav>
+
+
+
 
                         <!-- Nút khôi phục -->
                         <button id="restoreColumns" class="btn btn-success">Khôi phục</button>

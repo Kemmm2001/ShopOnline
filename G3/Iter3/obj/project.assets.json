@@ -1833,11 +1833,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Son\\G3\\Iter3\\Iter3.csproj",
+      "projectUniqueName": "G:\\Son\\ShopOnline\\G3\\Iter3\\Iter3.csproj",
       "projectName": "Iter3",
-      "projectPath": "G:\\Son\\G3\\Iter3\\Iter3.csproj",
+      "projectPath": "G:\\Son\\ShopOnline\\G3\\Iter3\\Iter3.csproj",
       "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "G:\\Son\\G3\\Iter3\\obj\\",
+      "outputPath": "G:\\Son\\ShopOnline\\G3\\Iter3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
