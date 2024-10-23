@@ -1,0 +1,179 @@
+﻿<link rel="stylesheet" href="~/css/orderList.css">
+
+@model IEnumerable<Iter3.Models.Order>
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title">Order List</h4>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <div id="multi-filter-select_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4">
+                    <form method="get" action="@Url.Action("Index")">
+                        <div class="row align-items-center">
+                            <!-- Lọc theo ngày -->
+                            <div class="col-md-3">
+                                <label for="filter-date">Lọc theo ngày:</label>
+                                <div class="d-flex">
+                                    <input type="date" id="filter-date-from" name="fromDate" value="@ViewBag.FromDate?.ToString("yyyy-MM-dd")" class="form-control form-control-sm" placeholder="Từ">
+                                    <input type="date" id="filter-date-to" name="toDate" value="@ViewBag.ToDate?.ToString("yyyy-MM-dd")" class="form-control form-control-sm ms-2" placeholder="Đến">
+                                </div>
+                            </div>
+
+                            <!-- Radio buttons for completion status -->
+                            <div class="col-md-3">
+                                <label>Trạng thái hoàn thành:</label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="status" id="completed" value="completed" @(ViewBag.Status == "completed" ? "checked" : "")>
+                                    <label class="form-check-label" for="completed">Đã hoàn thành</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="status" id="notCompleted" value="notCompleted" @(ViewBag.Status == "notCompleted" ? "checked" : "")>
+                                    <label class="form-check-label" for="notCompleted">Chưa hoàn thành</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 text-end">
+                                <div class="input-group">
+                                    <span class="input-group-text" id="basic-addon1">Search:</span>
+                                    <input type="search" name="searchTerm" id="searchInput" class="form-control form-control-sm" placeholder="Search Name..." aria-label="Search" value="@ViewBag.SearchTerm">
+                                    <button class="btn btn-outline-secondary" type="submit">
+                                        <i class="bi bi-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+
+                    <div class="col-sm-12">
+                        <table id="multi-filter-select" class="display table table-striped table-hover dataTable" role="grid">
+                            <thead>
+                                <tr>
+                                    <th>ID <button type="button" class="toggle-column" data-column="0">-</button></th>
+                                    <th>Ngày Đặt <button type="button" class="toggle-column" data-column="1">-</button></th>
+                                    <th>Tên Khách Hàng <button type="button" class="toggle-column" data-column="2">-</button></th>
+                                    <th>Tên Sản Phẩm <button type="button" class="toggle-column" data-column="3">-</button></th>
+                                    <th>Tổng Tiền <button type="button" class="toggle-column" data-column="4">-</button></th>
+                                    <th>Trạng Thái <button type="button" class="toggle-column" data-column="5">-</button></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var order in Model)
+                                {
+                                    <tr>
+                                        <td>@order.Id</td>
+                                        <td>@order.CreatedAt.ToString("MM/dd/yyyy")</td>
+                                        <td>@order.User.FirstName @order.User.LastName</td>
+                                        <td>
+                                            @if (order.OrderDetails.Any())
+                                            {
+                                                var firstProduct = order.OrderDetails.First().ProductSizePricing.Product.Name;
+                                                <p>@firstProduct</p>
+                                            }
+                                            else
+                                            {
+                                                <p>Không có sản phẩm</p>
+                                            }
+                                        </td>
+                                        <td>
+                                            @order.OrderDetails.Sum(od => od.ProductSizePricing.Price * od.Quantity)Đ
+                                        </td>
+                                        <td>@(order.Status ? "Hoàn Thành" : "Chưa Hoàn Thành")</td>
+                                        <td>
+                                            <a href="@Url.Action("Index", "OrderDetail", new { orderId = order.Id })" class="btn btn-info">
+                                                Xem Chi Tiết
+                                            </a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+
+                        <div>
+                            <form method="post" asp-action="ChangePageSize">
+                                <input type="hidden" name="pageSize" value="@ViewBag.PageSize" />
+                                <button type="submit" name="change" value="1" class="btn btn-primary">+</button>
+                                <button type="submit" name="change" value="-1" class="btn btn-danger">-</button>
+                            </form>
+                        </div>
+
+                        <!-- Phân trang -->
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination">
+                                @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                                {
+                                    <li class="page-item @(ViewBag.CurrentPage == i ? "active" : "")">
+                                        <a class="page-link" href="@Url.Action("Index", new { page = i, pageSize = ViewBag.PageSize })">@i</a>
+                                    </li>
+                                }
+                            </ul>
+                        </nav>
+
+                        <!-- Nút khôi phục -->
+                        <button id="restoreColumns" class="btn btn-success">Khôi phục</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const toggleButtons = document.querySelectorAll('.toggle-column');
+        const restoreButton = document.getElementById('restoreColumns');
+        const hiddenColumns = new Set(); // Sử dụng Set để theo dõi cột bị ẩn
+
+        toggleButtons.forEach(button => {
+            button.addEventListener('click', function () {
+                const columnIndex = this.dataset.column;
+
+                // Toggle column visibility
+                const table = document.getElementById('multi-filter-select');
+                const isHidden = hiddenColumns.has(columnIndex); // Kiểm tra xem cột có đang ẩn hay không
+
+                for (let row of table.rows) {
+                    const cell = row.cells[columnIndex];
+                    cell.style.display = isHidden ? '' : 'none'; // Ẩn hoặc hiện cột
+                }
+
+                // Cập nhật trạng thái cột
+                if (isHidden) {
+                    hiddenColumns.delete(columnIndex); // Nếu cột đang ẩn thì xóa khỏi Set
+                    this.textContent = '-'; // Đổi lại thành nút '-'
+                } else {
+                    hiddenColumns.add(columnIndex); // Nếu cột hiện thì thêm vào Set
+                    this.textContent = '+'; // Đổi lại thành nút '+'
+                }
+            });
+        });
+
+        restoreButton.addEventListener('click', function () {
+            if (hiddenColumns.size > 0) {
+                const columnToRestore = Array.from(hiddenColumns)[0]; // Lấy cột đầu tiên trong danh sách ẩn
+
+                // Khôi phục cột
+                const table = document.getElementById('multi-filter-select');
+                for (let row of table.rows) {
+                    const cell = row.cells[columnToRestore];
+                    cell.style.display = ''; // Hiển thị lại cột
+                }
+
+                // Khôi phục trạng thái của nút
+                const button = toggleButtons[columnToRestore];
+                button.textContent = '-'; // Đổi thành '-'
+
+                hiddenColumns.delete(columnToRestore);
+
+            } else {
+                alert('Tất cả các cột đã được hiển thị.'); // Nếu không có cột nào bị ẩn
+            }
+        });
+    });
+</script>
+}
+
+

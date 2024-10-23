@@ -1,0 +1,101 @@
+﻿/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Card styling */
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+/* Table styling */
+.table {
+    background-color: #fff;
+    border-collapse: collapse;
+}
+
+    .table thead th {
+        background-color: #f8f9fa;
+        border-bottom: 2px solid #dee2e6;
+    }
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Pagination styling */
+.pagination {
+    padding-left: 0;
+    list-style: none;
+    border-radius: 0.25rem;
+}
+
+.paginate_button a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.paginate_button.active a {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.paginate_button.disabled a {
+    color: #6c757d;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .input-group {
+        width: 100%;
+        flex-direction: column;
+    }
+
+        .input-group .btn {
+            width: 100%;
+            margin-top: 5px;
+        }
+}
+
+.col-sm-12{
+
+    padding-top: 50px;
+}
+/* Ensure the table and surrounding elements are aligned properly */
+.table-responsive {
+    margin-top: 10px; /* Adjust this value as needed */
+}
+
+/* Styling for input groups to align the search icon correctly */
+.input-group .form-control {
+    border-radius: 0.25rem 0 0 0.25rem; /* Rounded corners on the left side */
+}
+
+.input-group .btn {
+    border-radius: 0 0.25rem 0.25rem 0; /* Rounded corners on the right side */
+}
+
+/* Additional styling to ensure responsive and clean alignment */
+@media (max-width: 768px) {
+    .input-group {
+        flex-wrap: nowrap; /* Prevents wrapping on small screens */
+    }
+}
+.input-group-text {
+    background: #fff; /* Set background to match the input field */
+    border-right: none; /* Remove the right border to merge with input field */
+}
+
+.input-group .form-control {
+    border-left: none; /* Remove the left border to merge with label span */
+}
+
+.btn-outline-secondary {
+    border-left: none; /* Optional: Remove left border to make it seamless */
+}
