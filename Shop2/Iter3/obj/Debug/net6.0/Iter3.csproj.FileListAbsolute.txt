@@ -1,0 +1,131 @@
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\obj\Debug\net6.0\Iter3.csproj.AssemblyReference.cache
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\obj\Debug\net6.0\Iter3.GeneratedMSBuildEditorConfig.editorconfig
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\obj\Debug\net6.0\Iter3.AssemblyInfoInputs.cache
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\obj\Debug\net6.0\Iter3.AssemblyInfo.cs
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\obj\Debug\net6.0\Iter3.csproj.CoreCompileInputs.cache
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\obj\Debug\net6.0\Iter3.MvcApplicationPartsAssemblyInfo.cache
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\obj\Debug\net6.0\Iter3.RazorAssemblyInfo.cache
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\obj\Debug\net6.0\Iter3.RazorAssemblyInfo.cs
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\appsettings.Development.json
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\appsettings.json
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\Iter3.staticwebassets.runtime.json
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\Iter3.exe
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\Iter3.deps.json
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\Iter3.runtimeconfig.json
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\Iter3.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\Iter3.pdb
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\Humanizer.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\obj\Debug\net6.0\staticwebassets\msbuild.Iter3.Microsoft.AspNetCore.StaticWebAssets.props
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\obj\Debug\net6.0\staticwebassets\msbuild.build.Iter3.props
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Iter3.props
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Iter3.props
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\obj\Debug\net6.0\staticwebassets.pack.json
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\obj\Debug\net6.0\staticwebassets.build.json
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\obj\Debug\net6.0\staticwebassets.development.json
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\obj\Debug\net6.0\scopedcss\bundle\Iter3.styles.css
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\obj\Debug\net6.0\scopedcss\projectbundle\Iter3.bundle.scp.css
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\obj\Debug\net6.0\Iter3.csproj.CopyComplete
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\obj\Debug\net6.0\Iter3.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\obj\Debug\net6.0\refint\Iter3.dll
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\obj\Debug\net6.0\Iter3.pdb
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\obj\Debug\net6.0\Iter3.genruntimeconfig.cache
+E:\K9\SWP391\Hung SP\Shop2\iter3\Shop2\Iter3\obj\Debug\net6.0\ref\Iter3.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\appsettings.Development.json
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\appsettings.json
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\Iter3.staticwebassets.runtime.json
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\Iter3.exe
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\Iter3.deps.json
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\Iter3.runtimeconfig.json
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\Iter3.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\Iter3.pdb
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\Humanizer.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\System.Drawing.Common.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\System.Runtime.Caching.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\System.Security.Permissions.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\System.Windows.Extensions.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+G:\Son\Shop2\Iter3\obj\Debug\net6.0\Iter3.csproj.AssemblyReference.cache
+G:\Son\Shop2\Iter3\obj\Debug\net6.0\Iter3.GeneratedMSBuildEditorConfig.editorconfig
+G:\Son\Shop2\Iter3\obj\Debug\net6.0\Iter3.AssemblyInfoInputs.cache
+G:\Son\Shop2\Iter3\obj\Debug\net6.0\Iter3.AssemblyInfo.cs
+G:\Son\Shop2\Iter3\obj\Debug\net6.0\Iter3.csproj.CoreCompileInputs.cache
+G:\Son\Shop2\Iter3\obj\Debug\net6.0\Iter3.MvcApplicationPartsAssemblyInfo.cache
+G:\Son\Shop2\Iter3\obj\Debug\net6.0\Iter3.RazorAssemblyInfo.cache
+G:\Son\Shop2\Iter3\obj\Debug\net6.0\Iter3.RazorAssemblyInfo.cs
+G:\Son\Shop2\Iter3\obj\Debug\net6.0\staticwebassets.build.json
+G:\Son\Shop2\Iter3\obj\Debug\net6.0\staticwebassets.development.json
+G:\Son\Shop2\Iter3\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+G:\Son\Shop2\Iter3\obj\Debug\net6.0\scopedcss\bundle\Iter3.styles.css
+G:\Son\Shop2\Iter3\obj\Debug\net6.0\scopedcss\projectbundle\Iter3.bundle.scp.css
+G:\Son\Shop2\Iter3\obj\Debug\net6.0\Iter3.csproj.CopyComplete
+G:\Son\Shop2\Iter3\obj\Debug\net6.0\Iter3.dll
+G:\Son\Shop2\Iter3\obj\Debug\net6.0\refint\Iter3.dll
+G:\Son\Shop2\Iter3\obj\Debug\net6.0\Iter3.pdb
+G:\Son\Shop2\Iter3\obj\Debug\net6.0\Iter3.genruntimeconfig.cache
+G:\Son\Shop2\Iter3\obj\Debug\net6.0\ref\Iter3.dll
