@@ -8,12 +8,47 @@
     ".NETCoreApp,Version=v6.0": {
       "Iter3/1.0.0": {
         "dependencies": {
+          "AWSSDK.Extensions.NETCore.Setup": "3.7.301",
+          "AWSSDK.S3": "3.7.405.5",
           "Microsoft.EntityFrameworkCore": "6.0.33",
           "Microsoft.EntityFrameworkCore.Design": "6.0.29",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.28"
         },
         "runtime": {
           "Iter3.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.400.41": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.400.41"
+          }
+        }
+      },
+      "AWSSDK.Extensions.NETCore.Setup/3.7.301": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.400.41",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Extensions.NETCore.Setup.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.7.0"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.405.5": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.400.41"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.405.5"
+          }
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -447,6 +482,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AWSSDK.Core/3.7.400.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0fSQY22BWhYCtYpJLlUH7TBY0Fk+TJhxf3WTyknXPLmA81psMjdEtVNKgAzI+m4eG0GeRgzwicHPuvRpJPulCQ==",
+      "path": "awssdk.core/3.7.400.41",
+      "hashPath": "awssdk.core.3.7.400.41.nupkg.sha512"
+    },
+    "AWSSDK.Extensions.NETCore.Setup/3.7.301": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hXejqa+G72kVCSmpKlNVWDEqa8KVWOFL/asgoE2mairQOnmTCv6vMxaXjJ0nQaad5/21zTdKDIfDiki5YTne1Q==",
+      "path": "awssdk.extensions.netcore.setup/3.7.301",
+      "hashPath": "awssdk.extensions.netcore.setup.3.7.301.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.405.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KVNRESrp9ast4TnxZy/tO/Vs0fl8YI7PhbYj9Q6joLW25J6M5aodTdlTV1kP1VNWb1i+FO/zYD1y2g5q+9Wc/Q==",
+      "path": "awssdk.s3/3.7.405.5",
+      "hashPath": "awssdk.s3.3.7.405.5.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",

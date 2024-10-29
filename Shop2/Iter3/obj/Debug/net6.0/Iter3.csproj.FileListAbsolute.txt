@@ -129,3 +129,6 @@ G:\Son\Shop2\Iter3\obj\Debug\net6.0\refint\Iter3.dll
 G:\Son\Shop2\Iter3\obj\Debug\net6.0\Iter3.pdb
 G:\Son\Shop2\Iter3\obj\Debug\net6.0\Iter3.genruntimeconfig.cache
 G:\Son\Shop2\Iter3\obj\Debug\net6.0\ref\Iter3.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\AWSSDK.Core.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\AWSSDK.S3.dll
+G:\Son\Shop2\Iter3\bin\Debug\net6.0\AWSSDK.Extensions.NETCore.Setup.dll

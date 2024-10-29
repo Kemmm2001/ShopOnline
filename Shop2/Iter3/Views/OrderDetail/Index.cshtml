@@ -53,7 +53,7 @@
                             </div>
                             <div class="col-12">
                                 <label class="form-label col-6 col-sm-5">Giới tính:</label>
-                                <span><strong>lấy gioi tinh</strong></span>
+                                <span><strong>@(Model.Gender == 1 ? "Nam" : "Nữ")</strong></span>
                             </div>
                             <div class="col-12">
                                 <label class="form-label col-6 col-sm-5">Email:</label>
@@ -65,7 +65,7 @@
                             </div>
                             <div class="col-12">
                                 <label class="form-label col-6 col-sm-5">Địa chỉ:</label>
-                                <span><strong>lấy địa chỉ</strong></span>
+                                <span><strong>@Model.Address</strong></span>
                             </div>
 
                         </div>
@@ -102,7 +102,13 @@
                                                     @foreach (var product in Model.Products)
                                                     {
                                                         <tr>
-                                                            <td><img style="height: 120px;width: 120px;" src="@product.ImageUrl" class="avatar rounded lg" alt="Product"></td>
+                                                            <td>
+                                                                <form asp-controller="OrderDetail" asp-action="UpdateImage" method="post" enctype="multipart/form-data">
+                                                                    <input type="file" name="newImage" onchange="this.form.submit()" style="display:none;" id="uploadImage_@product.ProductName">
+                                                                    <img src="@product.ImageUrl" alt="Product Image" style="cursor: pointer; height: 120px; width: 120px;" onclick="document.getElementById('uploadImage_@product.ProductName').click();" />
+                                                                    <input type="hidden" name="orderId" value="@Model.OrderId" />
+                                                                </form>
+                                                            </td>
                                                             <td class="dt-body-right">
                                                                 <h6 class="title">@product.ProductName</h6>
                                                             </td>

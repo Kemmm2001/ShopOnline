@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "xVI36GDATK4QycPZlMuTRqj/oZIFaRO5kl6QCD4lPiKc6bnAbHKYePzu99Wt+1CjflXBV5BPW2iDSzQFb93o2g==",
+  "dgSpecHash": "xs07bmNSGPHogDWimxQFX2tKfsglG/Bnn+dgoVEytn1LeK7jfL4EJxECIzKZR6hILepeaLTaoGbTtpGnL8EgYA==",
   "success": true,
   "projectFilePath": "G:\\Son\\Shop2\\Iter3\\Iter3.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\nguye\\.nuget\\packages\\awssdk.core\\3.7.400.41\\awssdk.core.3.7.400.41.nupkg.sha512",
+    "C:\\Users\\nguye\\.nuget\\packages\\awssdk.extensions.netcore.setup\\3.7.301\\awssdk.extensions.netcore.setup.3.7.301.nupkg.sha512",
+    "C:\\Users\\nguye\\.nuget\\packages\\awssdk.s3\\3.7.405.5\\awssdk.s3.3.7.405.5.nupkg.sha512",
     "C:\\Users\\nguye\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\nguye\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\nguye\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",

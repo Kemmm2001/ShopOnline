@@ -1,6 +1,7 @@
-﻿using Iter3.Models;
-
+﻿using Amazon.Extensions.NETCore.Setup;
+using Iter3.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,9 @@ var connectionString = builder.Configuration.GetConnectionString("G3_PerfumeShop
 // Đăng ký DbContext với chuỗi kết nối
 builder.Services.AddDbContext<G3_PerfumeShopDB_Iter3Context>(options =>
     options.UseSqlServer(connectionString));
+
+// Đăng ký AWSOptions với các giá trị từ appsettings.json
+builder.Services.Configure<AWSOptions>(builder.Configuration.GetSection("AWS"));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
